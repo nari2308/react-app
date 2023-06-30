@@ -13,8 +13,8 @@ function App() {
     <Home />
     <Router>
     <Routes>
-      <Route exact path='/react-app/' Component={App}></Route>
-      <Route  path='/react-app/home' Component={Home }></Route>
+      <Route exact path='/' Component={App}></Route>
+      <Route  path='/react-app/' Component={Home }></Route>
       <Route  path='/react-app/signup' Component={Signup }></Route>
      <Route  path='/react-app/login' Component={Login }></Route>
     </Routes>
