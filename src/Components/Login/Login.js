@@ -9,7 +9,7 @@ function Login() {
             <p> <input type="password" placeholder="password"/></p> 
             <button>Submit</button>
             <p>New User?<a href="/react-app/signup">Register</a></p>
-            <button class="dummy"><a href='react-app/home'>Home</a></button>
+            <button class="dummy"><a href='react-app'>Home</a></button>
         </form>
         </div>
 );
